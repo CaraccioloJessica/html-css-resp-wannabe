@@ -143,12 +143,16 @@ img {
         flex-direction: column;
         gap: 3rem;
     }
-
-    .steps .col {
+    
+    .lessons .col {
         width: 100%;
     }
 
-    .lessons .col {
+    .steps {
+        margin-bottom: 0;
+    }
+    
+    .steps .col {
         width: 100%;
     }
 
@@ -167,9 +171,6 @@ img {
         padding-top: 3rem;
     }
 
-    .steps {
-        margin-bottom: 0;
-    }
 }
 
 /* BONUS */
