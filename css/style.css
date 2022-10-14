@@ -132,3 +132,42 @@ img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .why-us .col-left  {
+        width: 100%;
+    }
+
+    .why-us .col-right  {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+}
